@@ -40,7 +40,6 @@ def dc_dw(a,y,i):
   dc_da=2*(a-y)
   da_dw=i
   return dc_da*da_dw
-  
 w=[w_o]
 a=[w_o*i]
 for j in range(0,100):
